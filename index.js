@@ -26,7 +26,7 @@ app.use(express.json()); // to parse/interpret incoming raw data in JSON format 
 //Routes
 
 app.get("/", (req, res) => {
-  res.send("<html><body><h1>Hello World! Update</h1></body></html>");
+  res.send("<html><body><h1>Hello World!</h1></body></html>");
 });
 
 app.get("/queryParams", (req, res) => {
