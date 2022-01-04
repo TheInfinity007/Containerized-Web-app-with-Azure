@@ -27,7 +27,7 @@ app.use(express.json()); // to parse/interpret incoming raw data in JSON format 
 
 app.get("/", (req, res) => {
   res.send(
-    "<html><body><h1>Hello World! <br>Redeploying after code change</h1></body></html>"
+    "<html><body><h1>Hello World! <br>Redeploying after code change<br> Setting up continuous deployement to on in deployment center </h1></body></html>"
   );
 });
 
